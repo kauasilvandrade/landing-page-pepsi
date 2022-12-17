@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {}
+
+.container {}
+
+/* CABEÇALHO */
+.cabecalho {}
+
+.cabecalho__logo {}
+
+.cabecalho__logo img {}
+
+/* MENU */
+.cabecalho__navegacao {}
+
+.navegacao__listaLinks {}
+
+.listaLinks__item {}
+
+.listaLinks__item a {}
+
+.listaLinks__botao {}
+
+.listaLinks__botao button {}
+
+.listaLinks__botao .botao--azul {}
+
+.listaLinks__botao .botao--branco {}
+
+/* CONTEÚDO */
+.conteudo {}
+
+/* INTRODUÇÃO */
+.conteudo__introducao {}
+
+.conteudo__introducao h1 {}
+
+.conteudo__introducao h1 strong {}
+
+.conteudo__introducao p {}
+
+.conteudo__introducao a {}
+
+/* IMAGEM */
+.conteudo__img {}
+
+.conteudo__img img {}
