@@ -32,11 +32,15 @@
         <nav class="cabecalho__navegacao">
 
             <!-- BOTÃO MOBILE -->
-            <button id="navegacao__botaoMenu">
+            <button id="navegacao__botaoMenu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Botão abrir menu"
+            aria-haspopup="true">
                 <span class="hamburguer"></span>
             </button>
 
-            <ul class="navegacao__listaLinks">
+            <ul class="navegacao__listaLinks" role="menu" id="menu">
 
                 <li class="listaLinks__item">
                     <a href="#">Home</a>
