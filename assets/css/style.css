@@ -197,13 +197,14 @@ body {
         margin: 7px 0;
         background-color: white;
         position: relative;
+        transition: .5s;
     }
 
     #navegacao__botaoMenu .hamburguer.ativado {
         border-top: transparent;
         position: fixed;
         right: 1rem;
-        top: 2rem;
+        top: 2.5rem;
     }
 
     #navegacao__botaoMenu .hamburguer.ativado::before {
@@ -218,7 +219,7 @@ body {
     .navegacao__listaLinks {
         background-color: #375b76;
         position: fixed;
-        top: 0;
+        top: -18%;
         left: 0;
         flex-direction: column;
         width: 100%;
@@ -234,6 +235,7 @@ body {
     .navegacao__listaLinks.ativado {
         height: 100vh;
         visibility: visible;
+        top: 0;
     }
 
     .listaLinks__item a {
